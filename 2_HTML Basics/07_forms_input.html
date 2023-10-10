@@ -9,7 +9,70 @@
 
 <body>
 
-    
+    <form action="process.php">
+
+        <!-- Name -->
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+        </div>
+
+        <!-- Email -->
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <!-- Message -->
+        <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="50" rows="5"></textarea>
+        </div>
+
+        <!-- Sex -->
+        <div>
+            <label for="sex">Sex</label>
+            <select name="sex" id="sex">
+                <option value="male">Male</option>
+                <option value="female" selected>Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <!-- Age -->
+        <div>
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age">
+        </div>
+
+        <!-- Date -->
+        <div>
+            <label for="birthdate">Birthday</label>
+            <input type="date" name="birthdate" id="birthdate">
+        </div>
+
+        <!-- Radio button -->
+        <div>
+            <label for="membership">Membership</label>
+            <input type="radio" name="membership" value="simple" id="membership">Simple
+            <input type="radio" name="membership" value="standard" id="membership" checked>Standard
+            <input type="radio" name="membership" value="super" id="membership">Super
+        </div>
+
+        <!-- Checkbox -->
+        <div>
+            <label for="likes">I like...</label>
+            <input type="checkbox" name="likes" value="bike" id="likes">Bike
+            <input type="checkbox" name="likes" value="car" id="likes" checked>Car
+            <input type="checkbox" name="likes" value="boat" id="likes">Boat
+        </div>
+
+        <!-- Input submit -->
+        <input type="button" value="submit">
+
+        <!-- Button submit -->
+        <button type="reset">Reset</button>
+    </form>
 
 </body>
 
