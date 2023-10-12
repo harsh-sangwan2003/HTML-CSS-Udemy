@@ -8,10 +8,51 @@
 
     <style>
 
+        *{
+
+            box-sizing: border-box;
+        }
+
+        body{
+
+            font-family: Arial, Helvetica, sans-serif;
+            line-height:1.4em;
+        }
+
         .container{
 
             max-width:960px;
             margin:30px auto;
+        }
+
+        .box{
+
+            background: #f4f4f4;
+            border:1px solid #333;
+            padding:20px;
+            margin-bottom:15px;
+        }
+
+        .box p{
+
+            text-align: center;
+        }
+
+        #box-2{
+
+            float:left;
+            width:68%;
+        }
+
+        #box-3{
+
+            float:right;
+            width:32%;
+        }
+
+        .clr{
+
+            clear: both;
         }
 
     </style>
@@ -32,6 +73,13 @@
         </div>
 
         <div id="box-3" class="box">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, dolore!</p>
+        </div>
+
+        <div class="clr"></div>
+        
+        <div id="box-4" class="box">
             <h3>Heading</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, dolore!</p>
         </div>
