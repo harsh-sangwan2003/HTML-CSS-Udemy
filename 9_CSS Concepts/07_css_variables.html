@@ -8,13 +8,82 @@
 
     <style>
 
+        :root{
+
+            --max-width:1100px;
+            --primary-color:#333;
+            --secondary-color:#ccc;
+            --light-color:#f4f4f4;
+            --box-1-width:1;
+            --box-2-width:2;
+        }
+
+        *{
+            margin:0;
+            padding:0;
+        }
+
+        body{
+
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.4;
+            background: var(--light-color);
+        }
+
+        header{
+            background-color: var(--primary-color);
+            border-bottom: 5px var(--secondary-color);
+            color:#fff;
+            text-align: center;
+        }
+
+        .container{
+            display: flex;
+            margin:auto;
+            max-width:var(--max-width);
+        }
+
+        .box{
+
+            background-color: var(--primary-color);
+            border-bottom: 5px car(--secondary-color);
+            color:#fff;
+            padding:1rem;
+        }
+
+        .box-1{
+
+            flex:var(--box-1-width);
+        }
+
+        .box-2{
+
+            flex: var(--box-2-width);
+        }
+
     </style>
 
 </head>
 
 <body>
 
-    
+    <header>
+        <h1>CSS Variables</h1>
+    </header>
+
+    <div class="container">
+        <div class="box box-1">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consequuntur illo quis id accusamus
+                quasi magni nesciunt amet natus dignissimos.</p>
+        </div>
+
+        <div class="box box-2">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consequuntur illo quis id accusamus
+                quasi magni nesciunt amet natus dignissimos.</p>
+        </div>
+    </div>
 
 </body>
 
