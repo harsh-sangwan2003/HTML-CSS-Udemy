@@ -8,11 +8,58 @@
 
     <style>
 
+        .container{
+
+            display:flex;
+        }
+
+        .box{
+
+            padding:1rem;
+            margin:1rem;
+            background: coral;
+            color:#fff;
+
+            /* offset-x | offset-y | color */
+            box-shadow: 10px 10px teal;
+
+            /* offset-x | offset-y | blur-radius | color */
+            box-shadow: 5px 5px 20px teal;
+
+            /* Negative values are also allowed */
+            
+            
+            /* offset-x | offset-y | blur-radius | spread-radius | color */
+            box-shadow: 5px 5px 20px 10px teal;
+
+            /* inset | offset-x | offset-y | blur-radius | color */
+            box-shadow: inset 5px 5px 20px teal;
+        }
+
     </style>
 
 </head>
 
 <body>
+
+    <div class="container">
+
+        <div class="box">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, quibusdam?</p>
+        </div>
+
+        <div class="box">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, quibusdam?</p>
+        </div>
+
+        <div class="box">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, quibusdam?</p>
+        </div>
+
+    </div>
 
 </body>
 
