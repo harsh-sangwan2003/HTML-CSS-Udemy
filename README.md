@@ -11,7 +11,6 @@ A quick guide to my Project ->
 - CSS FlexBox
 - CSS Grid
 - Responsive Design
-- Projects
 
 ## Usage
 
