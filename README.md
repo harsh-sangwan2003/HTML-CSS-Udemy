@@ -8,6 +8,10 @@ A quick guide to my Project ->
 
 - HTML5
 - CSS3
+- CSS FlexBox
+- CSS Grid
+- Responsive Design
+- Projects
 
 ## Usage
 
