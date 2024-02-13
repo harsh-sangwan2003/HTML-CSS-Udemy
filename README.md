@@ -14,4 +14,4 @@ A quick guide to my Project ->
 
 ## Usage
 
-This repo contains all the necessary resources required to learn HTML & CS.
+This repo contains all the necessary resources required to learn HTML & CSS.
